@@ -21,7 +21,7 @@ class ComputadorLaptop extends Computador{
         return $this->tactil;
     }
 
-    public function get_potBateria($potBateria){
+    public function get_potBateria(){
         return $this->potBateria;
     }
 
