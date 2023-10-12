@@ -8,6 +8,10 @@ $desktop1 = new ComputadorDesktop('HP', '16RAM', 'DDR5', 'SSD', '1000GB', 'Windo
 
 $desktop2 = new ComputadorDesktop('Apple', '32GB', 'DDR6', 'SSD', '2TB', 'macOS Ventura', 'Office 365', 'Intel Core i7', 8, false);
 
+echo Computador::hora_actual();
+
+echo '<br>';
+
 
 echo '--COMPUTADORES DE MESA--'. '<br>'. '<br>';
 

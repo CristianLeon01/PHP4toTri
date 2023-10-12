@@ -11,7 +11,6 @@ class Computador {
     private string $suiteOficina;
     private string $procesador;
     private string $numPuertosUSB;
-    public static $hora_actual;
 
     public function __construct(string $fabricante, string $capMemoria, string $tipoMemoria, string $tipoAlmacenamiento, string $capAlmacenamiento, string $sistemaOperativo, string $suiteOficina, string $procesador, string $numPuertosUSB){
 
@@ -101,8 +100,7 @@ class Computador {
         return $this->numPuertosUSB = $numPuertosUSB;
     }
 
-    function hora_actual(){
-        $hora_actual = date("H:i:s");
-        echo $hora_actual;
+    public static function hora_actual(){
+        return date("Y-m-d");
     }
 }
